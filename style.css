@@ -1,0 +1,60 @@
+.nav-items:hover {
+    color: crimson;
+}
+
+.btn-design {
+    display: inline-block;
+    padding: 8px !important;
+    font-size: 14px !important;
+    cursor: pointer !important;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: crimson !important;
+    border: none;
+    margin: 0px !important;
+    /* box-shadow: 0px 0px 40px 20px rgba(0, 0, 0, 0.1); */
+}
+
+.btn-design:hover {
+    background-color: rgb(232, 46, 74) !important;
+    color: white;
+}
+
+.btn-design:active {
+    background-color: red !important;
+    box-shadow: 0 5px #999 !important;
+    transform: translateY(4px) !important;
+}
+
+/* slider */
+
+/* .slider-home {
+    /* border: 2px solid red; */
+
+
+*/ .slider-img {
+    height: inherit;
+}
+
+/* zoom effect */
+.zoom {
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.zoom img {
+    /* width: 100%; */
+    transition: 0.4s all ease-in-out;
+}
+
+.zoom:hover img {
+    transform: scale(1.2);
+}
+
+/* navbar */
+.navbar {
+    box-shadow: 0px 16px 50px 0px rgba(0, 0, 0, 0.1);
+    z-index: 444;
+}
